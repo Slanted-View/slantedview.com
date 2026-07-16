@@ -18,8 +18,13 @@
   <link rel="stylesheet" href="components.css">
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="packet3.css">
 </head>
 <body>
+  <div class="site-loader" data-loader aria-hidden="true">
+    <img src="sv-eye.png" alt="">
+    <span>Slanted View</span>
+  </div>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header" data-header>
@@ -86,12 +91,32 @@
       </div>
     </section>
 
+    <section class="live-ticker" aria-label="Live trending updates">
+      <div class="ticker-label">Live</div>
+      <div class="ticker-window">
+        <div class="ticker-track" data-ticker-track></div>
+      </div>
+    </section>
+
     <section id="trending" class="media-section section-shell reveal">
       <div class="section-title-row">
         <h2>Trending Now</h2>
         <a href="#" class="view-all">View all →</a>
       </div>
       <div class="media-carousel" data-carousel="trending"></div>
+    </section>
+
+    <section class="featured-story section-shell reveal" data-featured-story>
+      <div class="featured-copy">
+        <span class="eyebrow" data-featured-kicker></span>
+        <h2 data-featured-title></h2>
+        <p data-featured-summary></p>
+        <a class="button button-primary button-small" href="#" data-featured-cta></a>
+      </div>
+      <div class="featured-art">
+        <img data-featured-image alt="">
+        <span class="featured-shade"></span>
+      </div>
     </section>
 
     <section id="watch" class="media-section section-shell reveal">
@@ -125,6 +150,14 @@
         </article>
         <div class="podcast-list" data-grid="podcasts"></div>
       </div>
+    </section>
+
+    <section class="media-section section-shell reveal">
+      <div class="section-title-row">
+        <h2>Explore the View</h2>
+        <a href="#topics" class="view-all">All topics →</a>
+      </div>
+      <div class="category-grid" data-category-grid></div>
     </section>
 
     <section id="about" class="growth-section section-shell reveal">
@@ -167,6 +200,17 @@
     <div class="copyright">© 2026 Slanted View Media. All rights reserved.</div>
   </footer>
 
+  <dialog class="video-dialog" data-video-dialog>
+    <button class="video-dialog-close" aria-label="Close video" data-video-close>×</button>
+    <div class="video-stage">
+      <div class="video-placeholder">
+        <img src="sv-eye.png" alt="">
+        <span>Video preview</span>
+        <strong data-video-title>Slanted View</strong>
+      </div>
+    </div>
+  </dialog>
+
   <dialog class="search-dialog" data-search-dialog>
     <form method="dialog" class="search-box">
       <button class="dialog-close" aria-label="Close search">×</button>
@@ -179,6 +223,7 @@
   <script src="content.js" defer></script>
   <script src="carousel.js" defer></script>
   <script src="hero.js" defer></script>
+  <script src="packet3.js" defer></script>
   <script src="app.js" defer></script>
 </body>
 </html>

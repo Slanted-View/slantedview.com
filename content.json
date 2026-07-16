@@ -99,5 +99,70 @@
       "title": "The Real Agenda",
       "length": "56:09"
     }
-  ]
+  ],
+  "ticker": [
+    "Katie Cakes backlash grows after latest livestream",
+    "Chiefs dynasty debate takes over sports feeds",
+    "Hollywood breakup story explodes across social media",
+    "Concert controversy sparks creator responses",
+    "Viral clip passes 10 million views overnight"
+  ],
+  "featured": {
+    "eyebrow": "Featured Story",
+    "title": "The Internet Saw the Moment. Here Is What It Missed.",
+    "summary": "A closer look at the personalities, pressure and fallout behind the conversation everyone is sharing.",
+    "image": "hollywood.jpg",
+    "cta": "Read the Full Story"
+  },
+  "categories": [
+    {
+      "name": "Entertainment",
+      "description": "Celebrity, creators, music and moments driving the conversation.",
+      "icon": "\u2605"
+    },
+    {
+      "name": "Culture",
+      "description": "The internet, trends and social behavior shaping what comes next.",
+      "icon": "\u25ce"
+    },
+    {
+      "name": "Sports",
+      "description": "Big personalities, bigger stakes and the stories beyond the score.",
+      "icon": "\u25c6"
+    },
+    {
+      "name": "Viral",
+      "description": "The clips, reactions and questions everyone is sharing.",
+      "icon": "\u26a1"
+    },
+    {
+      "name": "Interviews",
+      "description": "Direct conversations without the polished talking points.",
+      "icon": "\u25c9"
+    },
+    {
+      "name": "Commentary",
+      "description": "Raw perspective from a distinctly Slanted View.",
+      "icon": "\u2726"
+    }
+  ],
+  "spotlight": {
+    "name": "JJ \u2014 The View",
+    "kicker": "Creator Spotlight",
+    "summary": "Daily commentary on entertainment, culture and the angle everyone else overlooked.",
+    "stats": [
+      {
+        "value": "100K+",
+        "label": "TikTok Followers"
+      },
+      {
+        "value": "12M+",
+        "label": "Top Video Views"
+      },
+      {
+        "value": "4\u20136",
+        "label": "Daily Uploads"
+      }
+    ]
+  }
 }
