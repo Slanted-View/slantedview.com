@@ -1,10 +1,21 @@
-.hero{position:relative;min-height:760px;overflow:hidden;display:grid;place-items:center;text-align:center;background:radial-gradient(circle at 50% 35%,rgba(108,0,180,.25),transparent 31%),linear-gradient(#030304,#07050a 55%,#020203)}
-.hero-noise{position:absolute;inset:0;opacity:.18;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E")}
-.hero-glow{position:absolute;width:430px;height:430px;border-radius:50%;background:#7e0bd4;filter:blur(110px);opacity:.24}.hero-glow-left{left:7%;top:23%}.hero-glow-right{right:6%;top:24%}
-.hero-stage-lines{position:absolute;inset:0;background:linear-gradient(90deg,transparent 0 15%,rgba(154,40,255,.08) 15.2%,transparent 15.5% 84.5%,rgba(154,40,255,.08) 84.8%,transparent 85%),linear-gradient(transparent 0 70%,rgba(124,20,200,.08) 70.2%,transparent 70.5%)}
-.hero-inner{position:relative;z-index:4;padding:40px 20px 80px}.hero-eye{width:min(900px,70vw);height:390px;object-fit:contain;margin:0 auto -55px;filter:drop-shadow(0 0 35px rgba(190,50,255,.66));animation:logo-breathe 5.5s ease-in-out infinite}
-.hero h1{text-transform:uppercase;line-height:.88}.hero h1 span{display:block;font-size:clamp(2.6rem,5vw,5.3rem);font-weight:1000;color:#efedf1;text-shadow:0 0 18px rgba(255,255,255,.2)}.hero h1 strong{display:block;margin-top:10px;font-size:clamp(2.5rem,6vw,6.8rem);font-style:italic;font-family:Impact,"Arial Black",sans-serif;letter-spacing:.01em;color:var(--purple-bright);text-shadow:0 0 28px rgba(187,42,255,.55)}
-.hero-description{text-transform:uppercase;letter-spacing:.3em;color:#d5d0d8;font-size:.78rem;margin-top:22px}.hero-actions{display:flex;justify-content:center;gap:16px;margin-top:24px}.hero-reflection{position:absolute;left:-12%;right:-12%;bottom:-20%;height:48%;transform:perspective(390px) rotateX(64deg);background:repeating-linear-gradient(90deg,transparent 0 90px,rgba(145,30,255,.08) 91px),linear-gradient(rgba(119,16,190,.2),transparent);filter:blur(1px)}.scroll-cue{position:absolute;z-index:5;bottom:24px;width:28px;height:38px;border:1px solid var(--purple-bright);border-radius:18px;display:grid;place-items:center;color:var(--purple-bright);animation:bob 1.8s infinite}
-.topic-strip{border-bottom:1px solid #18141d;background:#060608}.topic-strip-inner{min-height:72px;display:flex;align-items:center;gap:10px}.topic-heading{white-space:nowrap;color:var(--purple-bright);font-size:.74rem;text-transform:uppercase}.topic-list{display:flex;gap:9px;overflow:auto;flex:1}.topic-chip{border:1px solid #403747;border-radius:999px;padding:9px 18px;white-space:nowrap;font-size:.72rem;text-transform:uppercase;background:#08080b}.topic-chip:hover{border-color:var(--purple);background:rgba(139,23,237,.1)}
-.growth-section{display:grid;grid-template-columns:1.5fr 1fr repeat(3,.62fr);gap:10px;padding-block:24px}.growth-section>article,.metric-panel{border:1px solid var(--line);min-height:165px;padding:22px;background:#09090d}.creator-panel{background:radial-gradient(circle at 80% 35%,#4f0b73,#09080c 60%)!important}.creator-panel h2,.join-panel h2{font-size:1.3rem;margin:4px 0 8px}.creator-panel p,.join-panel p{color:var(--muted);font-size:.83rem;max-width:38ch;margin-bottom:16px}.join-form{display:flex;gap:8px}.join-form input{min-width:0;flex:1;background:#040405;border:1px solid #352f3a;color:white;padding:12px}.form-status{font-size:.72rem;color:var(--purple-bright);margin-top:8px}.metric-panel{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.metric-panel strong{font-size:2.15rem}.metric-panel span{text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-size:.7rem}
-@keyframes logo-breathe{50%{transform:scale(1.025);filter:drop-shadow(0 0 50px rgba(202,59,255,.76))}}@keyframes bob{50%{transform:translateY(7px)}}
+window.SVRender = {
+ card(item, latest=false){
+   const e = window.SV.escape;
+   return `<article class="content-card">
+     <div class="card-image">
+       <img loading="lazy" src="${e(item.image)}" alt="">
+       <span class="play-badge">▶</span>
+       ${latest ? `<span class="duration">${e(item.duration)}</span>` : ''}
+     </div>
+     <div class="card-body">
+       ${latest ? '' : `<span class="card-kicker">${e(item.category)}</span>`}
+       <h3>${e(item.title)}</h3>
+       <p class="card-meta">${latest ? e(item.date) : e(item.views + ' views')}</p>
+     </div>
+   </article>`;
+ },
+ podcast(item){
+   const e = window.SV.escape;
+   return `<article class="podcast-card"><div><span class="episode">${e(item.episode)}</span><h3>${e(item.title)}</h3><span class="length">${e(item.length)}</span></div><span>▶</span></article>`;
+ }
+};

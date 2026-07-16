@@ -1,103 +1,184 @@
-{
-  "topics": [
-    "Katie Cakes",
-    "Chiefs",
-    "Hollywood",
-    "Concerts",
-    "Viral",
-    "News",
-    "Gaming",
-    "Culture"
-  ],
-  "trending": [
-    {
-      "title": "The Truth Behind the Internet\u2019s Sweetheart",
-      "category": "Culture",
-      "views": "125K",
-      "image": "assets/images/influencer-exposed.jpg"
-    },
-    {
-      "title": "Is the Chiefs Dynasty Finally Over?",
-      "category": "Sports",
-      "views": "98K",
-      "image": "assets/images/chiefs-dynasty.jpg"
-    },
-    {
-      "title": "What Happens When the Internet Moves On?",
-      "category": "Viral",
-      "views": "142K",
-      "image": "assets/images/viral-over.jpg"
-    },
-    {
-      "title": "Things Got Out of Control Fast",
-      "category": "Entertainment",
-      "views": "91K",
-      "image": "assets/images/concert-chaos.jpg"
-    },
-    {
-      "title": "What Hollywood Doesn\u2019t Want You to See",
-      "category": "Culture",
-      "views": "139K",
-      "image": "assets/images/hollywood.jpg"
-    }
-  ],
-  "latest": [
-    {
-      "title": "They Don\u2019t Want You to Know This",
-      "duration": "12:45",
-      "date": "2 hours ago",
-      "image": "assets/images/latest-one.jpg"
-    },
-    {
-      "title": "The Story Was Never That Simple",
-      "duration": "10:32",
-      "date": "1 day ago",
-      "image": "assets/images/latest-two.jpg"
-    },
-    {
-      "title": "Speaking Up Will Get You Hated",
-      "duration": "8:17",
-      "date": "2 days ago",
-      "image": "assets/images/latest-three.jpg"
-    },
-    {
-      "title": "What\u2019s Really Going On?",
-      "duration": "9:03",
-      "date": "3 days ago",
-      "image": "assets/images/latest-four.jpg"
-    },
-    {
-      "title": "Unfiltered Ep. 27 \u2014 No More Silence",
-      "duration": "11:21",
-      "date": "4 days ago",
-      "image": "assets/images/latest-five.jpg"
-    }
-  ],
-  "shorts": [
-    "Wake Up",
-    "Real Talk",
-    "No Filter",
-    "Culture",
-    "They Missed It",
-    "Viral",
-    "Sports",
-    "Watch This"
-  ],
-  "podcasts": [
-    {
-      "episode": "EP. 27",
-      "title": "No More Silence",
-      "length": "58:21"
-    },
-    {
-      "episode": "EP. 26",
-      "title": "Behind the Curtain",
-      "length": "1:02:11"
-    },
-    {
-      "episode": "EP. 25",
-      "title": "The Real Agenda",
-      "length": "56:09"
-    }
-  ]
-}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#050507">
+  <meta name="description" content="Slanted View Media — the view everyone’s missing. Entertainment from every angle.">
+  <meta property="og:title" content="Slanted View Media">
+  <meta property="og:description" content="The view everyone’s missing. Entertainment from every angle.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://slantedview.com/">
+  <meta property="og:image" content="https://slantedview.com/sv-eye.png">
+  <title>Slanted View Media</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="sv-eye.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="components.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <a class="brand-lockup" href="/" aria-label="Slanted View home">
+      <img src="sv-eye.png" alt="" class="brand-eye">
+      <span class="brand-wordmark"><strong>SLANTED VIEW</strong><small>MEDIA</small></span>
+    </a>
+
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false" data-menu-button>
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Primary navigation" data-nav>
+      <a class="active" href="/">Home</a>
+      <a href="#trending">Trending</a>
+      <a href="#watch">Watch</a>
+      <a href="#podcast">Podcast</a>
+      <a href="#topics">Topics</a>
+      <a href="#media">Media</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button" aria-label="Search" data-search-open>⌕</button>
+      <a class="button button-outline button-small" href="#join">Subscribe</a>
+    </div>
+  </header>
+
+  <aside class="social-rail" aria-label="Social platforms"><a href="#" aria-label="TikTok">♪</a><a href="#" aria-label="YouTube">▶</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="X">𝕏</a><a href="#" aria-label="Facebook">f</a><span>Follow the movement</span></aside>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-cinematic-bg" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-beam hero-beam-left" aria-hidden="true"></div>
+      <div class="hero-beam hero-beam-right" aria-hidden="true"></div>
+      <div class="hero-particles" data-particles aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <img class="hero-eye" src="sv-eye.png" alt="Slanted View eye logo">
+        <p class="eyebrow hero-eyebrow">Entertainment From Every Angle</p>
+        <h1 id="hero-title">
+          <span>The View</span>
+          <strong>Everyone’s Missing.</strong>
+        </h1>
+        <p class="hero-description">Viral moments. Raw takes. Real talk.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#watch"><span>▶</span> Watch Now</a>
+          <a class="button button-glass" href="#trending">Explore Content</a>
+        </div>
+      </div>
+
+      <div class="hero-reflection" aria-hidden="true"></div>
+      <div class="hero-edge-copy hero-edge-left">Real talk. No filter.</div>
+      <div class="hero-edge-copy hero-edge-right">Entertainment from every angle.</div>
+      <a class="scroll-cue" href="#topics" aria-label="Scroll to trending topics"><span></span></a>
+    </section>
+
+    <section id="topics" class="topic-strip" aria-label="Trending topics">
+      <div class="section-shell topic-strip-inner">
+        <strong class="topic-heading">⚡ Trending Topics</strong>
+        <div class="topic-list" data-topic-list></div>
+        <a href="#trending" class="view-all">View all →</a>
+      </div>
+    </section>
+
+    <section id="trending" class="media-section section-shell reveal">
+      <div class="section-title-row">
+        <h2>Trending Now</h2>
+        <a href="#" class="view-all">View all →</a>
+      </div>
+      <div class="media-carousel" data-carousel="trending"></div>
+    </section>
+
+    <section id="watch" class="media-section section-shell reveal">
+      <div class="section-title-row">
+        <h2>Latest Videos</h2>
+        <a href="#" class="view-all">View all →</a>
+      </div>
+      <div class="video-grid" data-grid="latest"></div>
+    </section>
+
+    <section class="media-section section-shell reveal">
+      <div class="section-title-row">
+        <h2>Shorts Feed</h2>
+        <a href="#" class="view-all">View all →</a>
+      </div>
+      <div class="shorts-row" data-grid="shorts"></div>
+    </section>
+
+    <section id="podcast" class="media-section section-shell reveal">
+      <div class="section-title-row">
+        <h2>Podcast — The View</h2>
+        <a href="#" class="view-all">View all →</a>
+      </div>
+      <div class="podcast-layout">
+        <article class="podcast-feature">
+          <img src="sv-eye.png" alt="">
+          <div>
+            <span>The View</span>
+            <strong>Podcast</strong>
+          </div>
+        </article>
+        <div class="podcast-list" data-grid="podcasts"></div>
+      </div>
+    </section>
+
+    <section id="about" class="growth-section section-shell reveal">
+      <article class="creator-panel">
+        <span class="eyebrow">Creator Spotlight</span>
+        <h2>JJ — The View</h2>
+        <p>Raw commentary, culture and entertainment—with the angle everyone else missed.</p>
+        <a class="button button-primary button-small" href="#media">Read the Story</a>
+      </article>
+
+      <article id="join" class="join-panel">
+        <h2>Join the Movement</h2>
+        <p>Real people. Real conversations. New content every day.</p>
+        <form class="join-form" data-join-form>
+          <label class="sr-only" for="join-email">Email address</label>
+          <input id="join-email" name="email" type="email" placeholder="Enter your email" required>
+          <button class="button button-primary button-small" type="submit">Join Now</button>
+        </form>
+        <p class="form-status" role="status" data-form-status></p>
+      </article>
+
+      <div class="metric-panel"><strong>100K+</strong><span>Followers</span></div>
+      <div class="metric-panel"><strong>12M+</strong><span>Total Views</span></div>
+      <div class="metric-panel"><strong>4–6</strong><span>Videos Daily</span></div>
+    </section>
+  </main>
+
+  <footer id="media" class="site-footer">
+    <div class="section-shell footer-grid">
+      <div class="footer-brand">
+        <img src="sv-eye.png" alt="">
+        <strong>SLANTED VIEW MEDIA</strong>
+        <p>Entertainment from every angle.</p>
+      </div>
+      <div><h3>Explore</h3><a href="#trending">Trending</a><a href="#watch">Watch</a><a href="#podcast">Podcast</a><a href="#topics">Topics</a></div>
+      <div><h3>Company</h3><a href="#about">About</a><a href="#media">Media</a><a href="mailto:business@slantedview.com">Contact</a></div>
+      <div><h3>Legal</h3><a href="#">Privacy</a><a href="#">Terms</a><a href="#">DMCA</a></div>
+      <div class="footer-cta"><h3>Business & Media Inquiries</h3><p>Partnerships, sponsorships and press.</p><a class="button button-outline button-small" href="mailto:business@slantedview.com">Contact Us</a></div>
+    </div>
+    <div class="copyright">© 2026 Slanted View Media. All rights reserved.</div>
+  </footer>
+
+  <dialog class="search-dialog" data-search-dialog>
+    <form method="dialog" class="search-box">
+      <button class="dialog-close" aria-label="Close search">×</button>
+      <label for="site-search">Search Slanted View</label>
+      <input id="site-search" type="search" placeholder="Search topics, videos and stories…" autofocus>
+      <div class="search-results" data-search-results></div>
+    </form>
+  </dialog>
+
+  <script src="content.js" defer></script>
+  <script src="carousel.js" defer></script>
+  <script src="hero.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

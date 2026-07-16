@@ -1,11 +1,103 @@
-:root{
- --black:#030304;--black-2:#08080b;--panel:#0c0c10;--panel-2:#121018;
- --white:#f5f3f7;--silver:#c8c4cc;--muted:#98929e;--line:#2b2632;
- --purple:#8b17ed;--purple-bright:#c83bff;--purple-soft:#a95cff;
- --max-width:1540px;--header-height:76px;--shadow:0 24px 70px rgba(0,0,0,.48)
+{
+  "topics": [
+    "Katie Cakes",
+    "Chiefs",
+    "Hollywood",
+    "Concerts",
+    "Viral",
+    "News",
+    "Gaming",
+    "Culture"
+  ],
+  "trending": [
+    {
+      "title": "The Truth Behind the Internet\u2019s Sweetheart",
+      "category": "Culture",
+      "views": "125K",
+      "image": "influencer-exposed.jpg"
+    },
+    {
+      "title": "Is the Chiefs Dynasty Finally Over?",
+      "category": "Sports",
+      "views": "98K",
+      "image": "chiefs-dynasty.jpg"
+    },
+    {
+      "title": "What Happens When the Internet Moves On?",
+      "category": "Viral",
+      "views": "142K",
+      "image": "viral-over.jpg"
+    },
+    {
+      "title": "Things Got Out of Control Fast",
+      "category": "Entertainment",
+      "views": "91K",
+      "image": "concert-chaos.jpg"
+    },
+    {
+      "title": "What Hollywood Doesn\u2019t Want You to See",
+      "category": "Culture",
+      "views": "139K",
+      "image": "hollywood.jpg"
+    }
+  ],
+  "latest": [
+    {
+      "title": "They Don\u2019t Want You to Know This",
+      "duration": "12:45",
+      "date": "2 hours ago",
+      "image": "latest-one.jpg"
+    },
+    {
+      "title": "The Story Was Never That Simple",
+      "duration": "10:32",
+      "date": "1 day ago",
+      "image": "latest-two.jpg"
+    },
+    {
+      "title": "Speaking Up Will Get You Hated",
+      "duration": "8:17",
+      "date": "2 days ago",
+      "image": "latest-three.jpg"
+    },
+    {
+      "title": "What\u2019s Really Going On?",
+      "duration": "9:03",
+      "date": "3 days ago",
+      "image": "latest-four.jpg"
+    },
+    {
+      "title": "Unfiltered Ep. 27 \u2014 No More Silence",
+      "duration": "11:21",
+      "date": "4 days ago",
+      "image": "latest-five.jpg"
+    }
+  ],
+  "shorts": [
+    "Wake Up",
+    "Real Talk",
+    "No Filter",
+    "Culture",
+    "They Missed It",
+    "Viral",
+    "Sports",
+    "Watch This"
+  ],
+  "podcasts": [
+    {
+      "episode": "EP. 27",
+      "title": "No More Silence",
+      "length": "58:21"
+    },
+    {
+      "episode": "EP. 26",
+      "title": "Behind the Curtain",
+      "length": "1:02:11"
+    },
+    {
+      "episode": "EP. 25",
+      "title": "The Real Agenda",
+      "length": "56:09"
+    }
+  ]
 }
-body{background:var(--black);color:var(--white);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.45}
-body::selection{background:var(--purple);color:#fff}.section-shell{width:min(100% - 48px,var(--max-width));margin-inline:auto}
-.eyebrow{text-transform:uppercase;letter-spacing:.28em;font-size:.72rem;font-weight:800;color:var(--purple-soft)}
-.view-all{text-transform:uppercase;letter-spacing:.08em;font-size:.7rem;color:var(--silver)}
-.view-all:hover{color:var(--purple-bright)}

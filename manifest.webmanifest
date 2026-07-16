@@ -7,7 +7,7 @@
   "theme_color": "#030304",
   "icons": [
     {
-      "src": "assets/logos/sv-eye.png",
+      "src": "sv-eye.png",
       "sizes": "512x512",
       "type": "image/png"
     }
