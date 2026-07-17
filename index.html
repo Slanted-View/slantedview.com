@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="responsive.css">
   <link rel="stylesheet" href="packet3.css">
+  <link rel="stylesheet" href="packet4.css">
 </head>
 <body>
   <div class="site-loader" data-loader aria-hidden="true">
@@ -52,6 +53,12 @@
       <a class="button button-outline button-small" href="#join">Subscribe</a>
     </div>
   </header>
+
+  <section class="breaking-rail" aria-label="Breaking updates">
+    <div class="breaking-badge">Breaking</div>
+    <div class="breaking-copy"><strong data-breaking-headline>Loading the latest Slanted View update…</strong><span data-breaking-time></span></div>
+    <div class="breaking-controls"><button type="button" aria-label="Previous update" data-breaking-prev>‹</button><button type="button" aria-label="Next update" data-breaking-next>›</button></div>
+  </section>
 
   <aside class="social-rail" aria-label="Social platforms"><a href="#" aria-label="TikTok">♪</a><a href="#" aria-label="YouTube">▶</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="X">𝕏</a><a href="#" aria-label="Facebook">f</a><span>Follow the movement</span></aside>
 
@@ -119,11 +126,14 @@
       </div>
     </section>
 
+    <section class="featured-video section-shell reveal" data-featured-video>
+      <div class="featured-video-art"><img data-featured-video-image alt=""><button class="featured-play" type="button" data-featured-video-play aria-label="Play featured video">▶</button><span class="featured-video-duration" data-featured-video-duration></span></div>
+      <div class="featured-video-copy"><span class="eyebrow" data-featured-video-badge></span><h2 data-featured-video-title></h2><p data-featured-video-summary></p><div class="featured-video-meta" data-featured-video-views></div><button class="button button-primary" type="button" data-featured-video-play>Watch Featured</button></div>
+    </section>
+
     <section id="watch" class="media-section section-shell reveal">
-      <div class="section-title-row">
-        <h2>Latest Videos</h2>
-        <a href="#" class="view-all">View all →</a>
-      </div>
+      <div class="section-title-row"><h2>Latest Videos</h2><a href="#" class="view-all">View all →</a></div>
+      <div class="content-toolbar"><div class="filter-group" data-filter-group><button class="filter-button active" data-filter="all">All</button><button class="filter-button" data-filter="culture">Culture</button><button class="filter-button" data-filter="sports">Sports</button><button class="filter-button" data-filter="viral">Viral</button><button class="filter-button" data-filter="entertainment">Entertainment</button></div><label class="inline-search"><span class="sr-only">Filter videos</span><input type="search" placeholder="Filter this feed…" data-feed-search></label></div>
       <div class="video-grid" data-grid="latest"></div>
     </section>
 
@@ -152,6 +162,10 @@
       </div>
     </section>
 
+    <section class="media-section section-shell reveal"><div class="section-title-row"><h2>JJ’s Picks</h2><a href="#watch" class="view-all">View all →</a></div><div class="editorial-grid" data-jj-picks></div></section>
+    <section class="media-section section-shell reveal"><div class="section-title-row"><h2>Staff Picks</h2><a href="#watch" class="view-all">View all →</a></div><div class="editorial-grid" data-staff-picks></div></section>
+    <section class="media-section section-shell reveal"><div class="section-title-row"><h2>Voices From The View</h2><a href="#about" class="view-all">Meet the team →</a></div><div class="creator-grid" data-creator-grid></div></section>
+
     <section class="media-section section-shell reveal">
       <div class="section-title-row">
         <h2>Explore the View</h2>
@@ -159,6 +173,8 @@
       </div>
       <div class="category-grid" data-category-grid></div>
     </section>
+
+    <section class="media-section section-shell reveal"><div class="section-title-row"><h2>More From Slanted View</h2><span class="view-all">Updated daily</span></div><div class="more-feed" data-more-feed></div><div class="load-more-wrap"><button class="button button-glass" type="button" data-load-more>Load More</button></div></section>
 
     <section id="about" class="growth-section section-shell reveal">
       <article class="creator-panel">
@@ -224,6 +240,7 @@
   <script src="carousel.js" defer></script>
   <script src="hero.js" defer></script>
   <script src="packet3.js" defer></script>
+  <script src="packet4.js" defer></script>
   <script src="app.js" defer></script>
 </body>
 </html>

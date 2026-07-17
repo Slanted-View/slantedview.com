@@ -164,5 +164,122 @@
         "label": "Daily Uploads"
       }
     ]
-  }
+  },
+  "breaking": [
+    {
+      "label": "Breaking",
+      "headline": "A viral creator feud is changing by the hour.",
+      "time": "8 min ago"
+    },
+    {
+      "label": "Developing",
+      "headline": "A major entertainment story is pulling millions into the conversation.",
+      "time": "21 min ago"
+    },
+    {
+      "label": "Just Added",
+      "headline": "The latest Slanted View breakdown is now live.",
+      "time": "34 min ago"
+    }
+  ],
+  "featuredVideo": {
+    "title": "The Story Everyone Is Watching \u2014 From the Angle They Missed",
+    "summary": "A full Slanted View breakdown of the personalities, pressure and fallout behind today\u2019s biggest conversation.",
+    "image": "latest-one.jpg",
+    "duration": "14:28",
+    "views": "184K views",
+    "badge": "Featured Video"
+  },
+  "jjPicks": [
+    {
+      "title": "The Internet Is Asking the Wrong Question",
+      "image": "latest-two.jpg",
+      "tag": "JJ\u2019s Pick"
+    },
+    {
+      "title": "Why This Story Is Bigger Than the Clip",
+      "image": "latest-three.jpg",
+      "tag": "JJ\u2019s Pick"
+    },
+    {
+      "title": "The Moment the Narrative Changed",
+      "image": "latest-four.jpg",
+      "tag": "JJ\u2019s Pick"
+    }
+  ],
+  "staffPicks": [
+    {
+      "title": "Celebrity Culture Is Entering a New Era",
+      "image": "hollywood.jpg",
+      "tag": "Staff Pick"
+    },
+    {
+      "title": "Sports Personalities Are Becoming the Story",
+      "image": "chiefs-dynasty.jpg",
+      "tag": "Staff Pick"
+    },
+    {
+      "title": "The Viral Cycle Is Moving Faster Than Ever",
+      "image": "viral-over.jpg",
+      "tag": "Staff Pick"
+    }
+  ],
+  "creators": [
+    {
+      "name": "JJ",
+      "role": "Founder / Host",
+      "focus": "Culture, entertainment and commentary",
+      "initials": "JJ"
+    },
+    {
+      "name": "The View Desk",
+      "role": "Editorial",
+      "focus": "Trending stories and breaking conversations",
+      "initials": "SV"
+    },
+    {
+      "name": "Guest Voices",
+      "role": "Contributors",
+      "focus": "Interviews, reactions and alternate perspectives",
+      "initials": "GV"
+    }
+  ],
+  "moreFeed": [
+    {
+      "title": "What Changed Overnight?",
+      "category": "Trending",
+      "image": "latest-five.jpg",
+      "views": "41K"
+    },
+    {
+      "title": "The Conversation Nobody Expected",
+      "category": "Culture",
+      "image": "influencer-exposed.jpg",
+      "views": "67K"
+    },
+    {
+      "title": "Why Fans Are Divided",
+      "category": "Sports",
+      "image": "chiefs-dynasty.jpg",
+      "views": "52K"
+    },
+    {
+      "title": "The Backlash Is Growing",
+      "category": "Viral",
+      "image": "concert-chaos.jpg",
+      "views": "73K"
+    },
+    {
+      "title": "The Headline Is Only Half the Story",
+      "category": "Entertainment",
+      "image": "hollywood.jpg",
+      "views": "88K"
+    },
+    {
+      "title": "This One Detail Changes Everything",
+      "category": "Commentary",
+      "image": "latest-three.jpg",
+      "views": "61K"
+    }
+  ]
 }
