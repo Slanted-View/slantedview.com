@@ -672,6 +672,202 @@
       "image": "sv-eye.png",
       "category": "Topic",
       "url": "topics.html?topic=commentary"
+    },
+    {
+      "type": "channel",
+      "title": "The Daily View",
+      "description": "Fast commentary on the stories driving the day.",
+      "image": "latest-one.jpg",
+      "category": "Show",
+      "url": "shows.html?show=daily-view"
+    },
+    {
+      "type": "channel",
+      "title": "After Hours",
+      "description": "Longer conversations, reactions and unfiltered takes.",
+      "image": "hero-cinematic.jpg",
+      "category": "Show",
+      "url": "shows.html?show=after-hours"
+    },
+    {
+      "type": "channel",
+      "title": "The Viral File",
+      "description": "A running breakdown of the internet\u2019s biggest moments.",
+      "image": "viral-over.jpg",
+      "category": "Show",
+      "url": "shows.html?show=viral-file"
+    },
+    {
+      "type": "channel",
+      "title": "Sideline View",
+      "description": "Sports personalities, culture and stories beyond the score.",
+      "image": "chiefs-dynasty.jpg",
+      "category": "Show",
+      "url": "shows.html?show=sideline-view"
+    },
+    {
+      "type": "episode",
+      "title": "The Internet Lost the Plot Again",
+      "description": "What the loudest reactions missed about today\u2019s biggest creator story.",
+      "image": "latest-one.jpg",
+      "category": "The Daily View",
+      "url": "episode.html?slug=internet-lost-the-plot"
+    },
+    {
+      "type": "episode",
+      "title": "Viral Fame and the Fallout Nobody Plans For",
+      "description": "A longer conversation about sudden attention, pressure and public collapse.",
+      "image": "hero-cinematic.jpg",
+      "category": "After Hours",
+      "url": "episode.html?slug=viral-fame-fallout"
+    },
+    {
+      "type": "episode",
+      "title": "The Clip That Changed Everything",
+      "description": "The timeline, reactions and detail that moved the entire narrative.",
+      "image": "viral-over.jpg",
+      "category": "The Viral File",
+      "url": "episode.html?slug=clip-changed-everything"
+    },
+    {
+      "type": "episode",
+      "title": "The Sports Story Beyond the Score",
+      "description": "Why personality, pressure and audience reaction became bigger than the result.",
+      "image": "chiefs-dynasty.jpg",
+      "category": "Sideline View",
+      "url": "episode.html?slug=sports-story-beyond-score"
     }
-  ]
+  ],
+  "channels": [
+    {
+      "slug": "daily-view",
+      "name": "The Daily View",
+      "description": "Fast commentary on the stories driving the day.",
+      "image": "latest-one.jpg",
+      "cadence": "Daily"
+    },
+    {
+      "slug": "after-hours",
+      "name": "After Hours",
+      "description": "Longer conversations, reactions and unfiltered takes.",
+      "image": "hero-cinematic.jpg",
+      "cadence": "Weekly"
+    },
+    {
+      "slug": "viral-file",
+      "name": "The Viral File",
+      "description": "A running breakdown of the internet\u2019s biggest moments.",
+      "image": "viral-over.jpg",
+      "cadence": "Daily"
+    },
+    {
+      "slug": "sideline-view",
+      "name": "Sideline View",
+      "description": "Sports personalities, culture and stories beyond the score.",
+      "image": "chiefs-dynasty.jpg",
+      "cadence": "Weekly"
+    }
+  ],
+  "episodes": [
+    {
+      "slug": "internet-lost-the-plot",
+      "show": "The Daily View",
+      "title": "The Internet Lost the Plot Again",
+      "description": "What the loudest reactions missed about today\u2019s biggest creator story.",
+      "image": "latest-one.jpg",
+      "duration": "18:42",
+      "date": "2026-07-17",
+      "season": "1",
+      "episode": "12",
+      "audio": "#",
+      "video": "#"
+    },
+    {
+      "slug": "viral-fame-fallout",
+      "show": "After Hours",
+      "title": "Viral Fame and the Fallout Nobody Plans For",
+      "description": "A longer conversation about sudden attention, pressure and public collapse.",
+      "image": "hero-cinematic.jpg",
+      "duration": "42:10",
+      "date": "2026-07-16",
+      "season": "1",
+      "episode": "4",
+      "audio": "#",
+      "video": "#"
+    },
+    {
+      "slug": "clip-changed-everything",
+      "show": "The Viral File",
+      "title": "The Clip That Changed Everything",
+      "description": "The timeline, reactions and detail that moved the entire narrative.",
+      "image": "viral-over.jpg",
+      "duration": "11:08",
+      "date": "2026-07-15",
+      "season": "1",
+      "episode": "9",
+      "audio": "#",
+      "video": "#"
+    },
+    {
+      "slug": "sports-story-beyond-score",
+      "show": "Sideline View",
+      "title": "The Sports Story Beyond the Score",
+      "description": "Why personality, pressure and audience reaction became bigger than the result.",
+      "image": "chiefs-dynasty.jpg",
+      "duration": "26:34",
+      "date": "2026-07-14",
+      "season": "1",
+      "episode": "3",
+      "audio": "#",
+      "video": "#"
+    }
+  ],
+  "newsletter": {
+    "name": "The Slanted Brief",
+    "headline": "The View Before Everyone Else",
+    "description": "A sharp daily email with the biggest entertainment, culture, sports and viral stories worth your attention.",
+    "frequency": "Weekday mornings",
+    "benefits": [
+      "Top stories in under five minutes",
+      "One original Slanted View take",
+      "Links to new videos and episodes",
+      "No filler"
+    ]
+  },
+  "support": {
+    "headline": "Back The View",
+    "description": "Support independent commentary and help Slanted View expand into more original video, interviews and podcasts.",
+    "tiers": [
+      {
+        "name": "Viewer",
+        "price": "$3",
+        "period": "monthly",
+        "benefits": [
+          "Support the platform",
+          "Member badge",
+          "Monthly supporter update"
+        ]
+      },
+      {
+        "name": "Insider",
+        "price": "$8",
+        "period": "monthly",
+        "benefits": [
+          "Everything in Viewer",
+          "Early episode access",
+          "Members-only posts"
+        ]
+      },
+      {
+        "name": "Producer",
+        "price": "$20",
+        "period": "monthly",
+        "benefits": [
+          "Everything in Insider",
+          "Name in supporter credits",
+          "Quarterly live group session"
+        ]
+      }
+    ]
+  }
 }
