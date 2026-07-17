@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="packet3.css">
   <link rel="stylesheet" href="packet4.css">
   <link rel="stylesheet" href="packet5.css">
+  <link rel="stylesheet" href="packet6.css">
 </head>
 <body>
   <div class="site-loader" data-loader aria-hidden="true">
@@ -63,7 +64,8 @@
 
   <aside class="social-rail" aria-label="Social platforms"><a href="#" aria-label="TikTok">♪</a><a href="#" aria-label="YouTube">▶</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="X">𝕏</a><a href="#" aria-label="Facebook">f</a><span>Follow the movement</span></aside>
 
-  <main id="main">
+  <div class="utility-bar"><div class="utility-links"><a href="creators.html">Creators</a><a href="topics.html">Topic Directory</a><a href="media-kit.html">Media Kit</a></div><div class="utility-actions"><button type="button" data-open-saved>Saved <span class="saved-count" data-saved-count>0</span></button></div></div>
+<main id="main">
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-cinematic-bg" aria-hidden="true"></div>
       <div class="hero-vignette" aria-hidden="true"></div>
@@ -106,7 +108,8 @@
       </div>
     </section>
 
-    <section id="trending" class="media-section section-shell reveal">
+    <section class="discovery-section section-shell reveal" id="discover"><div class="discovery-header"><div><span class="eyebrow">Discover Slanted View</span><h2>Find The Angle</h2></div><p>Search videos, original stories, creators and topics from one place.</p></div><div class="discovery-grid"><div><div class="discovery-search"><span>⌕</span><input type="search" data-discovery-input placeholder="Search Slanted View…"><button type="button">Search</button></div><div class="packet6-results" data-packet6-results></div></div><div class="discovery-trends"><strong>Trending Searches</strong><div class="trend-query-list"><button data-trend-query="viral">Viral</button><button data-trend-query="culture">Culture</button><button data-trend-query="sports">Sports</button><button data-trend-query="JJ">JJ</button></div></div></div></section>
+<section id="trending" class="media-section section-shell reveal">
       <div class="section-title-row">
         <h2>Trending Now</h2>
         <a href="#" class="view-all">View all →</a>
@@ -230,13 +233,14 @@
       </div>
       <div><h3>Explore</h3><a href="#trending">Trending</a><a href="#watch">Watch</a><a href="#podcast">Podcast</a><a href="#topics">Topics</a></div>
       <div><h3>Company</h3><a href="#about">About</a><a href="#media">Media</a><a href="mailto:business@slantedview.com">Contact</a></div>
-      <div><h3>Legal</h3><a href="#">Privacy</a><a href="#">Terms</a><a href="#">DMCA</a></div>
+      <div><h3>Legal</h3><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="dmca.html">DMCA</a></div>
       <div class="footer-cta"><h3>Business & Media Inquiries</h3><p>Partnerships, sponsorships and press.</p><a class="button button-outline button-small" href="mailto:business@slantedview.com">Contact Us</a></div>
     </div>
     <div class="copyright">© 2026 Slanted View Media. All rights reserved.</div>
   </footer>
 
-  <dialog class="video-dialog" data-video-dialog>
+  <aside class="saved-drawer" data-saved-drawer><div class="saved-drawer-header"><h2>Saved View</h2><button data-close-saved>×</button></div><div class="saved-list" data-saved-list></div></aside>
+<dialog class="video-dialog" data-video-dialog>
     <button class="video-dialog-close" aria-label="Close video" data-video-close>×</button>
     <div class="video-stage">
       <div class="video-placeholder">
@@ -271,5 +275,6 @@
   <div class="toast" data-toast role="status" aria-live="polite"></div>
 
   <script src="packet5.js" defer></script>
+<script src="packet6.js" defer></script>
 </body>
 </html>

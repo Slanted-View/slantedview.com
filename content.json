@@ -319,5 +319,359 @@
       "date": "2026-07-15",
       "readTime": "4 min read"
     }
+  ],
+  "creatorProfiles": [
+    {
+      "slug": "jj",
+      "name": "JJ",
+      "role": "Founder & Host",
+      "initials": "JJ",
+      "bio": "Raw entertainment and culture commentary from the angle everyone else missed.",
+      "focus": [
+        "Culture",
+        "Entertainment",
+        "Viral Commentary"
+      ],
+      "followers": "100K+",
+      "topViews": "12M+",
+      "cadence": "4\u20136 daily",
+      "image": "sv-eye.png"
+    },
+    {
+      "slug": "view-desk",
+      "name": "The View Desk",
+      "role": "Editorial Desk",
+      "initials": "SV",
+      "bio": "Fast-moving coverage of creators, entertainment, sports personalities and internet culture.",
+      "focus": [
+        "Breaking",
+        "Trending",
+        "Explainers"
+      ],
+      "followers": "Daily",
+      "topViews": "Cross-platform",
+      "cadence": "Always on",
+      "image": "sv-eye.png"
+    },
+    {
+      "slug": "guest-voices",
+      "name": "Guest Voices",
+      "role": "Contributors",
+      "initials": "GV",
+      "bio": "Interviews, reactions and alternate perspectives that widen the view.",
+      "focus": [
+        "Interviews",
+        "Reactions",
+        "Community"
+      ],
+      "followers": "Growing",
+      "topViews": "New voices",
+      "cadence": "Weekly",
+      "image": "sv-eye.png"
+    }
+  ],
+  "topicDirectory": [
+    {
+      "slug": "entertainment",
+      "name": "Entertainment",
+      "description": "Creators, celebrity stories, music and moments driving the conversation.",
+      "count": 18
+    },
+    {
+      "slug": "culture",
+      "name": "Culture",
+      "description": "The internet, social behavior and trends shaping what comes next.",
+      "count": 14
+    },
+    {
+      "slug": "sports",
+      "name": "Sports",
+      "description": "Big personalities, bigger stakes and stories beyond the score.",
+      "count": 11
+    },
+    {
+      "slug": "viral",
+      "name": "Viral",
+      "description": "The clips, reactions and questions everyone is sharing.",
+      "count": 22
+    },
+    {
+      "slug": "interviews",
+      "name": "Interviews",
+      "description": "Direct conversations without polished talking points.",
+      "count": 7
+    },
+    {
+      "slug": "commentary",
+      "name": "Commentary",
+      "description": "Raw perspective from a distinctly Slanted View.",
+      "count": 16
+    }
+  ],
+  "searchIndex": [
+    {
+      "type": "trending",
+      "title": "The Truth Behind the Internet\u2019s Sweetheart",
+      "description": "",
+      "image": "influencer-exposed.jpg",
+      "category": "Culture",
+      "url": "#"
+    },
+    {
+      "type": "trending",
+      "title": "Is the Chiefs Dynasty Finally Over?",
+      "description": "",
+      "image": "chiefs-dynasty.jpg",
+      "category": "Sports",
+      "url": "#"
+    },
+    {
+      "type": "trending",
+      "title": "What Happens When the Internet Moves On?",
+      "description": "",
+      "image": "viral-over.jpg",
+      "category": "Viral",
+      "url": "#"
+    },
+    {
+      "type": "trending",
+      "title": "Things Got Out of Control Fast",
+      "description": "",
+      "image": "concert-chaos.jpg",
+      "category": "Entertainment",
+      "url": "#"
+    },
+    {
+      "type": "trending",
+      "title": "What Hollywood Doesn\u2019t Want You to See",
+      "description": "",
+      "image": "hollywood.jpg",
+      "category": "Culture",
+      "url": "#"
+    },
+    {
+      "type": "latest",
+      "title": "They Don\u2019t Want You to Know This",
+      "description": "",
+      "image": "latest-one.jpg",
+      "category": "Latest",
+      "url": "#"
+    },
+    {
+      "type": "latest",
+      "title": "The Story Was Never That Simple",
+      "description": "",
+      "image": "latest-two.jpg",
+      "category": "Latest",
+      "url": "#"
+    },
+    {
+      "type": "latest",
+      "title": "Speaking Up Will Get You Hated",
+      "description": "",
+      "image": "latest-three.jpg",
+      "category": "Latest",
+      "url": "#"
+    },
+    {
+      "type": "latest",
+      "title": "What\u2019s Really Going On?",
+      "description": "",
+      "image": "latest-four.jpg",
+      "category": "Latest",
+      "url": "#"
+    },
+    {
+      "type": "latest",
+      "title": "Unfiltered Ep. 27 \u2014 No More Silence",
+      "description": "",
+      "image": "latest-five.jpg",
+      "category": "Latest",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "Wake Up",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "Real Talk",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "No Filter",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "Culture",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "They Missed It",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "Viral",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "Sports",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "Watch This",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "podcast",
+      "title": "No More Silence",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Podcasts",
+      "url": "#"
+    },
+    {
+      "type": "podcast",
+      "title": "Behind the Curtain",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Podcasts",
+      "url": "#"
+    },
+    {
+      "type": "podcast",
+      "title": "The Real Agenda",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Podcasts",
+      "url": "#"
+    },
+    {
+      "type": "article",
+      "title": "The Internet Is Asking the Wrong Question",
+      "description": "The loudest reaction is rarely the most important part of the story.",
+      "image": "latest-two.jpg",
+      "category": "Commentary",
+      "url": "article.html?slug=internet-asking-wrong-question"
+    },
+    {
+      "type": "article",
+      "title": "Why This Story Is Bigger Than the Clip",
+      "description": "A viral moment can hide the pressure, incentives and fallout behind it.",
+      "image": "latest-three.jpg",
+      "category": "Culture",
+      "url": "article.html?slug=bigger-than-the-clip"
+    },
+    {
+      "type": "article",
+      "title": "The Moment the Narrative Changed",
+      "description": "One detail moved the audience from curiosity to certainty.",
+      "image": "latest-four.jpg",
+      "category": "Entertainment",
+      "url": "article.html?slug=narrative-changed"
+    },
+    {
+      "type": "creator",
+      "title": "JJ",
+      "description": "Raw entertainment and culture commentary from the angle everyone else missed.",
+      "image": "sv-eye.png",
+      "category": "Founder & Host",
+      "url": "creator.html?slug=jj"
+    },
+    {
+      "type": "creator",
+      "title": "The View Desk",
+      "description": "Fast-moving coverage of creators, entertainment, sports personalities and internet culture.",
+      "image": "sv-eye.png",
+      "category": "Editorial Desk",
+      "url": "creator.html?slug=view-desk"
+    },
+    {
+      "type": "creator",
+      "title": "Guest Voices",
+      "description": "Interviews, reactions and alternate perspectives that widen the view.",
+      "image": "sv-eye.png",
+      "category": "Contributors",
+      "url": "creator.html?slug=guest-voices"
+    },
+    {
+      "type": "topic",
+      "title": "Entertainment",
+      "description": "Creators, celebrity stories, music and moments driving the conversation.",
+      "image": "sv-eye.png",
+      "category": "Topic",
+      "url": "topics.html?topic=entertainment"
+    },
+    {
+      "type": "topic",
+      "title": "Culture",
+      "description": "The internet, social behavior and trends shaping what comes next.",
+      "image": "sv-eye.png",
+      "category": "Topic",
+      "url": "topics.html?topic=culture"
+    },
+    {
+      "type": "topic",
+      "title": "Sports",
+      "description": "Big personalities, bigger stakes and stories beyond the score.",
+      "image": "sv-eye.png",
+      "category": "Topic",
+      "url": "topics.html?topic=sports"
+    },
+    {
+      "type": "topic",
+      "title": "Viral",
+      "description": "The clips, reactions and questions everyone is sharing.",
+      "image": "sv-eye.png",
+      "category": "Topic",
+      "url": "topics.html?topic=viral"
+    },
+    {
+      "type": "topic",
+      "title": "Interviews",
+      "description": "Direct conversations without polished talking points.",
+      "image": "sv-eye.png",
+      "category": "Topic",
+      "url": "topics.html?topic=interviews"
+    },
+    {
+      "type": "topic",
+      "title": "Commentary",
+      "description": "Raw perspective from a distinctly Slanted View.",
+      "image": "sv-eye.png",
+      "category": "Topic",
+      "url": "topics.html?topic=commentary"
+    }
   ]
 }
