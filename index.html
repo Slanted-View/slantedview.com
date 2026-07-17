@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="responsive.css">
   <link rel="stylesheet" href="packet3.css">
   <link rel="stylesheet" href="packet4.css">
+  <link rel="stylesheet" href="packet5.css">
 </head>
 <body>
   <div class="site-loader" data-loader aria-hidden="true">
@@ -199,6 +200,25 @@
       <div class="metric-panel"><strong>12M+</strong><span>Total Views</span></div>
       <div class="metric-panel"><strong>4–6</strong><span>Videos Daily</span></div>
     </section>
+  
+    <section class="article-hub section-shell reveal" id="stories">
+      <div class="article-hub-header">
+        <div>
+          <span class="eyebrow">Original Stories</span>
+          <h2>Read The View</h2>
+        </div>
+        <p>Longer breakdowns, original commentary and the context hidden behind the headline.</p>
+      </div>
+      <div class="article-grid" data-article-grid></div>
+    </section>
+
+    <section class="performance-status section-shell" aria-label="Site experience">
+      <div class="performance-metric"><strong>Fast</strong><span>Lazy-loaded media</span></div>
+      <div class="performance-metric"><strong>Accessible</strong><span>Keyboard and contrast tools</span></div>
+      <div class="performance-metric"><strong>Search Ready</strong><span>Structured metadata</span></div>
+      <div class="performance-metric"><strong data-local-pageviews>1</strong><span>Your local page visits</span></div>
+    </section>
+
   </main>
 
   <footer id="media" class="site-footer">
@@ -242,5 +262,14 @@
   <script src="packet3.js" defer></script>
   <script src="packet4.js" defer></script>
   <script src="app.js" defer></script>
+
+  <div class="a11y-toolbar" data-a11y-toolbar aria-label="Accessibility controls">
+    <button type="button" data-toggle-motion title="Reduce motion">M</button>
+    <button type="button" data-toggle-contrast title="High contrast">C</button>
+    <button type="button" data-font-up title="Increase text size">A+</button>
+  </div>
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+  <script src="packet5.js" defer></script>
 </body>
 </html>

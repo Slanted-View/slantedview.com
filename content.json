@@ -281,5 +281,43 @@
       "image": "latest-three.jpg",
       "views": "61K"
     }
+  ],
+  "site": {
+    "name": "Slanted View",
+    "tagline": "The View Everyone's Missing.",
+    "description": "Entertainment, culture, sports and viral stories from the angle everyone else missed.",
+    "url": "https://slantedview.com"
+  },
+  "articles": [
+    {
+      "slug": "internet-asking-wrong-question",
+      "title": "The Internet Is Asking the Wrong Question",
+      "category": "Commentary",
+      "dek": "The loudest reaction is rarely the most important part of the story.",
+      "image": "latest-two.jpg",
+      "author": "JJ",
+      "date": "2026-07-16",
+      "readTime": "6 min read"
+    },
+    {
+      "slug": "bigger-than-the-clip",
+      "title": "Why This Story Is Bigger Than the Clip",
+      "category": "Culture",
+      "dek": "A viral moment can hide the pressure, incentives and fallout behind it.",
+      "image": "latest-three.jpg",
+      "author": "Slanted View Desk",
+      "date": "2026-07-16",
+      "readTime": "5 min read"
+    },
+    {
+      "slug": "narrative-changed",
+      "title": "The Moment the Narrative Changed",
+      "category": "Entertainment",
+      "dek": "One detail moved the audience from curiosity to certainty.",
+      "image": "latest-four.jpg",
+      "author": "JJ",
+      "date": "2026-07-15",
+      "readTime": "4 min read"
+    }
   ]
 }

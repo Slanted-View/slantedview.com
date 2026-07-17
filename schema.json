@@ -1,0 +1,8 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Slanted View",
+  "url": "https://slantedview.com",
+  "logo": "https://slantedview.com/sv-eye.png",
+  "description": "Entertainment, culture, sports and viral stories from the angle everyone else missed."
+}
