@@ -736,6 +736,38 @@
       "image": "chiefs-dynasty.jpg",
       "category": "Sideline View",
       "url": "episode.html?slug=sports-story-beyond-score"
+    },
+    {
+      "type": "video",
+      "title": "The Real Story Everyone Missed",
+      "description": "Commentary video on TikTok.",
+      "image": "latest-one.jpg",
+      "category": "Commentary",
+      "url": "videos.html?video=real-story-everyone-missed"
+    },
+    {
+      "type": "video",
+      "title": "The Clip That Changed the Narrative",
+      "description": "Viral video on YouTube Shorts.",
+      "image": "viral-over.jpg",
+      "category": "Viral",
+      "url": "videos.html?video=clip-changed-narrative"
+    },
+    {
+      "type": "video",
+      "title": "Viral Fame and the Fallout",
+      "description": "Entertainment video on YouTube.",
+      "image": "hero-cinematic.jpg",
+      "category": "Entertainment",
+      "url": "videos.html?video=fame-fallout"
+    },
+    {
+      "type": "video",
+      "title": "The Story Beyond the Score",
+      "description": "Sports video on YouTube.",
+      "image": "chiefs-dynasty.jpg",
+      "category": "Sports",
+      "url": "videos.html?video=sports-beyond-score"
     }
   ],
   "channels": [
@@ -927,5 +959,113 @@
       "value": 8500,
       "nextAction": "Finalize usage rights"
     }
-  ]
+  ],
+  "launchConfig": {
+    "version": "1.0",
+    "status": "Launch Candidate",
+    "brandName": "Slanted View",
+    "tagline": "The View Everyone's Missing.",
+    "supportingLine": "Entertainment From Every Angle",
+    "primaryDomain": "https://slantedview.com"
+  },
+  "videoLibrary": [
+    {
+      "slug": "real-story-everyone-missed",
+      "title": "The Real Story Everyone Missed",
+      "category": "Commentary",
+      "image": "latest-one.jpg",
+      "duration": "01:14",
+      "platform": "TikTok",
+      "views": "1.8M"
+    },
+    {
+      "slug": "clip-changed-narrative",
+      "title": "The Clip That Changed the Narrative",
+      "category": "Viral",
+      "image": "viral-over.jpg",
+      "duration": "00:58",
+      "platform": "YouTube Shorts",
+      "views": "742K"
+    },
+    {
+      "slug": "fame-fallout",
+      "title": "Viral Fame and the Fallout",
+      "category": "Entertainment",
+      "image": "hero-cinematic.jpg",
+      "duration": "18:42",
+      "platform": "YouTube",
+      "views": "128K"
+    },
+    {
+      "slug": "sports-beyond-score",
+      "title": "The Story Beyond the Score",
+      "category": "Sports",
+      "image": "chiefs-dynasty.jpg",
+      "duration": "04:26",
+      "platform": "YouTube",
+      "views": "96K"
+    }
+  ],
+  "launchChecklist": [
+    {
+      "area": "Brand",
+      "item": "Logo, favicon and social assets installed",
+      "status": "complete"
+    },
+    {
+      "area": "Content",
+      "item": "Homepage, articles, shows and video library connected",
+      "status": "complete"
+    },
+    {
+      "area": "SEO",
+      "item": "Metadata, sitemap and robots file configured",
+      "status": "complete"
+    },
+    {
+      "area": "Legal",
+      "item": "Privacy, terms and DMCA pages published",
+      "status": "complete"
+    },
+    {
+      "area": "Revenue",
+      "item": "Media kit, support and sponsor workflow available",
+      "status": "complete"
+    },
+    {
+      "area": "Operations",
+      "item": "Publishing workspace and dashboard available",
+      "status": "complete"
+    },
+    {
+      "area": "Integrations",
+      "item": "Newsletter, payments and analytics connected",
+      "status": "pending"
+    },
+    {
+      "area": "Quality",
+      "item": "Final mobile, accessibility and cross-browser review",
+      "status": "pending"
+    }
+  ],
+  "siteHealth": {
+    "labels": [
+      {
+        "name": "Performance",
+        "score": 91
+      },
+      {
+        "name": "Accessibility",
+        "score": 94
+      },
+      {
+        "name": "SEO",
+        "score": 96
+      },
+      {
+        "name": "Best Practices",
+        "score": 89
+      }
+    ]
+  }
 }
