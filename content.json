@@ -869,5 +869,63 @@
         ]
       }
     ]
-  }
+  },
+  "productionBoard": {
+    "statuses": [
+      "Idea",
+      "Recording",
+      "Editing",
+      "Scheduled",
+      "Published"
+    ],
+    "items": [
+      {
+        "id": "sv-901",
+        "title": "Why Everyone Missed the Real Story",
+        "platform": "TikTok",
+        "status": "Scheduled",
+        "publishAt": "2026-07-18T04:00:00-07:00",
+        "owner": "JJ",
+        "priority": "High"
+      },
+      {
+        "id": "sv-902",
+        "title": "The Clip That Changed the Narrative",
+        "platform": "YouTube Shorts",
+        "status": "Editing",
+        "publishAt": "2026-07-18T07:00:00-07:00",
+        "owner": "JJ",
+        "priority": "High"
+      },
+      {
+        "id": "sv-903",
+        "title": "After Hours: Viral Fame Fallout",
+        "platform": "YouTube",
+        "status": "Recording",
+        "publishAt": "2026-07-19T18:00:00-07:00",
+        "owner": "JJ",
+        "priority": "Medium"
+      }
+    ]
+  },
+  "sponsorPipeline": [
+    {
+      "brand": "Example Entertainment Brand",
+      "stage": "Lead",
+      "value": 2500,
+      "nextAction": "Send media kit"
+    },
+    {
+      "brand": "Example Consumer Brand",
+      "stage": "Proposal",
+      "value": 5000,
+      "nextAction": "Follow up Friday"
+    },
+    {
+      "brand": "Example Streaming Partner",
+      "stage": "Negotiation",
+      "value": 8500,
+      "nextAction": "Finalize usage rights"
+    }
+  ]
 }
